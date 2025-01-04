@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devesh Nair</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+	
+	
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+ <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-CMgpN0mgFQwtbM8nnp7cqR0Lzng9bIdzn3RYzXf0Tqy6Bh1wll+P47XRSB0AtK7+K8zHmblXz0xMWd2wQamOzA==" crossorigin="anonymous"></script>
+
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    function onSubmit(token) {
+        // Code to execute when reCAPTCHA is successfully completed
+		
+        document.querySelector('.contactss').style.display = 'block';
+		
+    }
+</script>
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body class="dark-mode">
+    <nav id="desktop-nav" style="background:black; z-index: 100000000000;">
+        <div class="logo myCustomButton a" style="cursor: none;" data-aos="fade-up">Devesh Nair</div>
+        
+        <div>
+            <ul class="nav-links" data-aos="fade-up">
+                <li><a href="#about" class="myCustomButton">About</a></li>
+                <li><a href="#experience" class="myCustomButton">Experience</a></li>
+                <li><a href="#projects" class="myCustomButton">Projects</a></li>
+                <li><a href="blog.deveshnair.com" target="_blank" class="myCustomButton">Blog</a></li>
+                <li><a href="#contact" class="myCustomButton">Contact</a></li>
+				 <!-- Theme button -->
+                <i class="ri-moon-line myCustomButton" id="theme-button"></i>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav" style="z-index:999;">
+        <div class="logo">Devesh Nair</div>
+        <div class="hamburger-menu">
+            
+				 <i class="ri-moon-line" id="theme-button-small" style="cursor:pointer;"></i>
+			<div class="hamburger-icon" onclick="toggleMenu()">
+                <span ></span>
+                <span ></span>
+                <span ></span>
+            </div>
+			
+            <div class="menu-links" style="z-index:999;">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Blog</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+				
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container sweep-right">
+            <img src="./assets/final_home_img.png" alt="John Doe profile picture"  style=" border-radius:50%;" data-aos="fade-left" data-aos-duration="1000" class="home_img" />
+        </div>
+        <div class="section__text sweep-left" data-aos="fade-right">
+            <p class="section__text__p1 section__textOne" >Hello, I'm</p>
+                    <h1 class="title" data-aos="fade-up">Devesh Nair</h1>
+
+ <p class="section__text__p2 " >
+ <div class="wrapperaround">
+  <!-- <div class="static-txt">I'm a</div> -->
+  <div class="container">
+    <span class="static-txt text first-text">I'm a</span>
+    <span class="static-txt text second-text"></span>
+ </div>
+ <ul class="dynamic-txts">
+ 
+    
+     </ul>
+	 </div>
+</p>
+                      
+		   <div class="btn-container" >
+                <button class="btn btn-color-2 myCustomButton"   >
+            Download CV
+          </button>
+                <a href="#contact" style="padding: 0; background: transparent;">
+                    <button  class="btn btn-color-1 myCustomButton" >
+                        Contact Info
+                      </button>
+                </a>
+            </div>
+            <div id="socials-container" >
+			
+    
+     
+
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories"  style="padding: 0; background-color: transparent;" target="_blank"><i class="fab fa-github iconsss myCustomButton"></i></a>  
+            <a href="https://www.linkedin.com/in/contact-devesh-nair/" target="_blank"  style="padding: 0; background-color: transparent;"><i class="fab fa-linkedin iconsss myCustomButton"></i></a>
+           <a href="https://www.youtube.com/@trainwithDevesh" target="_blank" style="padding: 0; background-color: transparent;"><i class="fab fa-youtube iconsss myCustomButton"></i></a> 
+
+
+
+            </div>
+        </div>
+    </section>
+	
+    <section id="about" style="margin-top:50px;">
+        <p class="section__text__p1 section__textsss">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container" >
+                <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" data-aos="zoom-in" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+                        <h3 class="myhthree">Experience</h3>
+                        <p>5+ years <br />DevOps and Backend Development</p>
+                    </div>
+                    <!-- <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
+                        <img src="./assets/education.png" alt="Education icon" class="icon" />
+                        <h3 class="myhthree">Education</h3>
+                        <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+                    </div> -->
+                </div>
+                <div class="text-container" >
+                    <p style="font-size:20px;" class="myptag">
+                        Passionate about developing robust <b class="toHoverCssAbout a">backend solutions</b> and optimizing <b><span class="toHoverCssAbout">DevOps workflows</span></b>, I leverage years of experience to deliver high-quality projects that exceed client expectations.
+    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+	
+	
+	<section id="experience" class="sweep-right">
+    <p class="section__text__p1 section__textsss">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container " >
+        <div class="about-containers">
+            <div class="details-container toChangeBackgroundAbout" data-aos="fade-right" >
+                <h2 class="experience-sub-title " ><span class="toHoverCss">DevOps</span></h2>
+                <div class="article-container-experience">
+                    <article >
+                        <i class="fab fa-docker icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                           <h3><span class="toHoverCss a">Docker</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fa fa-cube icon myhthree" style="font-size:25px; cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Kubernetes</span></h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fa fa-cogs icon myhthree" style="font-size:25px; cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Terraform</span></h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article >
+                         <i class="fab fa-jenkins icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Jenkins</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fa fa-server icon myhthree " style="font-size:25px; cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Nginx</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fa fa-exchange icon myhthree" style=" cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Kafka</span></h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fab fa-linux icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Linux</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fa fa-gears icon myhthree" style=" cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Ansible</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article >
+                         <i class="fas fa-bolt icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">ELK stack</span></h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container toChangeBackgroundAbout" data-aos="fade-left">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container-experience">
+                    <article >
+                     <i class="fab fa-python icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Python</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fa fa-code icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Go</span></h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                    <article >
+                         <i class="fab fa-java icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Java</span></h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article >
+                         <i class="fas fa-gem icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a">Ruby</span></h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                    <article >
+                        <i class="fab fa-windows icon myhthree" style="cursor: none;"></i>
+                        <div class="icon_content">
+                            <h3 ><span class="toHoverCss a" >C#</span></h3>
+                            <p>Beginner</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+</section>
+<style>
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+   }
+.gooey {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 142px;
+  height: 40px;
+  margin: -20px 0 0 -71px;
+  background: transparent;
+  filter: contrast(20);
+}
+
+.gooey .dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateX(0);
+  animation: dot 2.8s infinite;
+}
+
+.gooey .dots {
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  animation: dots 2.8s infinite;
+}
+
+.gooey .dots span {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+@keyframes dot {
+  50% {
+    transform: translateX(96px);
+  }
+}
+
+@keyframes dots {
+  50% {
+    transform: translateX(-31px);
+  }
+}
+
+i{
+	font-size:30px;
+}</style>
+<section id="projects" style=" margin-top:120px;">
+        <p class="section__text__p1 section__textsss">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+			<div class="testmonial_slider_area text-center owl-carousel" data-aos="zoom-in">
+    <!-- Project 2 -->
+    <article class="projects__card">
+        <div class="projects__image">
+            <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img home_img">
+            <a href="#" class="projects__button button">
+                <i class="ri-arrow-right-up-line"></i>
+            </a>
+        </div>
+        <div class="projects__content">
+            <span class="projects__subtitle">Python</span>
+            <h2 class="projects__title"><span class="toHoverCssAbout a">SSH Gen</span></h2>
+            <p class="projects__description">
+                Project focused on generating SSH keys programmatically, enhancing security and authentication processes.
+            </p>
+        </div>
+      <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+
+
+
+
+
+
+
+<!-- Project 4 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Rust</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">ToDo App</span></h2>
+        <p class="projects__description">
+            Rust-based project focused on creating a todo list application, showcasing Rust language capabilities.
+        </p>
+    </div>
+   <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial myCustomButton">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Project 5 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">HTML</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">Todo Frontend</span></h2>
+        <p class="projects__description">
+            HTML-based frontend project for managing todo lists, showcasing frontend development skills.
+        </p>
+    </div>
+   <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Project 6 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-3.jpg" alt="Projects 3" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Java</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">Todo Register Java</span></h2>
+        <p class="projects__description">
+            Java-based project for registering todos, demonstrating Java programming skills.
+        </p>
+    </div>
+   <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Project 7 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Go</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">Go API Validation</span></h2>
+        <p class="projects__description">
+            Go-based project focusing on API validation, highlighting Go programming capabilities.
+        </p>
+    </div>
+   <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Project 8 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Python</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">Python Kafka Todo</span></h2>
+        <p class="projects__description">
+            Python project for managing todos with Kafka messaging system, showcasing Python and Kafka integration.
+        </p>
+    </div>
+  <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Project 10 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-1.jpg" alt="Projects 1" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Ruby</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">My Rails App</span></h2>
+        <p class="projects__description">
+            Ruby on Rails assignment project, demonstrating proficiency in Ruby on Rails framework for web development.
+        </p>
+    </div>
+   <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Project 11 -->
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-2.jpg" alt="Projects 2" class="projects__img  home_img">
+        <a href="#" class="projects__button button">
+            <i class="ri-arrow-right-up-line"></i>
+        </a>
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Python</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout a">Machine Learning Review Model</span></h2>
+        <p class="projects__description">
+            Python project for building a machine learning model to review and predict house prices.
+        </p>
+    </div>
+   <div class="projects__buttons">
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial" style="margin-right:20px;">
+                <i class="ri-github-line"></i>
+            </a>
+            <a href="https://github.com/Devesh-N?page=2&tab=repositories" target="_blank" class="projects__link button mybuttonSpecial">
+                <i class="ri-eye-line"></i> 
+            </a>
+        </div>
+    </article>
+
+<!-- Continue with Project 13 and so on... -->
+
+
+</div>
+	    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+	
+	
+	
+	
+	
+
+	
+    <section id="blogs" class="blogs">
+        <p class="section__text__p1 section__textsss">View My Blogs</p>
+        <h1 class="title">My Recent Blog</h1>
+        
+		
+		
+    <div class="box-container">
+        
+        <div class="box tilt " data-aos="fade-right">
+            <img src="images/blog-img-1.jpg" alt="">
+            <h3><span class="toHoverCss a"> blogs title goes here </span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a  class="btnsss myCustomButtonBlack" style="cursor: none;">learn more</a>
+        </div>
+
+        <div class="box tilt" data-aos="zoom-in">
+            <img src="images/blog-img-2.jpg" alt="">
+            <h3><span class="toHoverCss a"> blogs title goes here</span> </h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a  class="btnsss myCustomButtonBlack" style="cursor: none;">learn more</a>
+        </div>
+
+        <div class="box tilt" data-aos="fade-left">
+            <img src="images/blog-img-3.jpg" alt="">
+            <h3><span class="toHoverCss a"> blogs title goes here </span></h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam sint tenetur adipisci explicabo nisi libero, in rerum earum. Dolor, quibusdam!</p>
+            <a  class="btnsss myCustomButtonBlack" style="cursor: none;">learn more</a>
+        </div>
+
+    </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+<section id="contact" >
+        <p class="section__text__p1 section__textsss">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        
+		
+		<center> <div class="g-recaptcha" data-sitekey="6LeLErwpAAAAAD3s3QWddvNAWULeDdLGUu3_-5lK" data-callback="onSubmit" style="margin-top:50px;"></div></center>
+        <div class="contactss containerss" style="display:none;">
+           <form id="contactForm">
+    <div class="form">
+        <div class="form-txt" data-aos="zoom-in">
+            <h1 class="oneone">Let's Connect!</h1>
+            <span class="oneone">I will read all emails. Send me any message you want and I'll get back to you.</span>
+            <h3 class="oneone">Discord:</h3>
+            <p class="oneone">deveshnairthegreat</p>
+        </div>
+        <div class="form-details" data-aos="zoom-in" id="contactContent">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+            <button id="sendEmail" type="button" style="cursor: none;">SEND MESSAGE</button>
+        </div>
+    </div>
+</form>
+
+        </div>
+    </section>
+<script>
+document.getElementById('sendEmail').addEventListener('click', function() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    var subject = 'Message from ' + name;
+    
+    var mailtoLink = 'https://mail.google.com/mail/?view=cm&fs=1&to=deveshagent@gmail.com&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\nMessage: ' + message);
+    
+    window.open(mailtoLink, '_blank');
+});
+</script>
+
+	 <div id="loading-screen">
+       
+<div class="gooey">
+  <span class="dot"></span>
+  <div class="dots">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+    </div>
+	
+	
+	
+	
+    <section style="height:30%; padding-bottom:30px;">
+        <nav>
+            <div class="nav-links-container footerNavs">
+                <ul class="nav-links">
+                    <!-- <li><a href="#about" class="myCustomButton">About</a></li>
+                    <li><a href="#experience" class="myCustomButton">Experience</a></li>
+                    <li><a href="#projects" class="myCustomButton">Projects</a></li>
+                    <li><a href="#contact" class="myCustomButton">Contact</a></li> -->
+                </ul>
+            </div>
+        </nav>
+      <center>  <p class="section__textOne myFootText">Copyright &#169; 2025 Devesh Nair. All Rights Reserved.</p></center>
+    </section>
+    <script src="script.js"></script>
+	
+
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+		<script>
+        $(".testmonial_slider_area").owlCarousel({
+				autoplay: true,
+				slideSpeed:1000,
+				items : 3,
+				loop: true,
+				nav:true,
+				navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
+				margin: 30,
+				dots: true,
+				responsive:{
+					320:{
+						items:1
+					},
+					767:{
+						items:2
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:3
+					},
+                    2100:{
+                        items:3
+                    }
+				}
+				
+			});
+    </script>
+
+
+<script>
+    // After the window is fully loaded, remove the loading screen and then initialize AOS
+    window.addEventListener('load', () => {
+        const loadingScreen = document.getElementById('loading-screen');
+        
+        // Delay hiding the loading screen for at least 30 seconds
+        setTimeout(() => {
+            loadingScreen.style.display = 'none';
+            
+            // Initialize AOS after the loading screen is removed
+            AOS.init({
+                duration: 800,
+                delay: 100
+            });
+        }, 1000); // 30 seconds delay
+    });
+
+   
+	
+
+
+	
+	
+	
+</script>
+
+
+
+  <!-- Cursor element -->
+  <!-- <div data-cursor></div> -->
+
+
+
+
+</body>
+
+</html>
